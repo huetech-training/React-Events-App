@@ -4,9 +4,8 @@ import Home from './home';
 import Topics from './topics';
 import Logout from './logout';
 import './styles/header.css';
-class Header extends Component {
-    state = {  } 
-    render() { 
+    
+const Header=()=> { 
         return (
             <div>
             <BrowserRouter>
@@ -39,6 +38,6 @@ class Header extends Component {
             </div>
         );
     }
-}
+
  
 export default Header;

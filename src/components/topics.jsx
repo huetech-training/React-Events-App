@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./styles/topics.css";
-class Topics extends Component {
-    state = {  } 
-    render() { 
+
+const Topics= ()=> { 
         return (
             <div className='m-3'>
                 <div className="container d-flex flex-column align-items-center m-3">
@@ -58,6 +57,6 @@ class Topics extends Component {
             </div>
         );
     }
-}
+
  
 export default Topics;
